@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Laborator 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+    Name: <input type="text" name="nume" id ='nume' placeholder="Name">
+    Imagine: <input type="text" name="poza" id='poza' placeholder="Image source">
+    Id: <input type="number" name="id" id="id" placeholder="Id for delete or request">
+    
+    </form>
+
+    <input type="button" value="Add" id="submit" onclick="preluare()">
+    <input type="button" value="Delete" id="delete" onclick="stergere()">
+    <input type="button" value="Request" id="edit" onclick="cerere()">
+    <input type="button" value="Update" id="update" onclick="update()" disabled>    
+
+    <div class="box"></div>
+    
+    <script src="sc.js"></script>
+</body>
+</html>
